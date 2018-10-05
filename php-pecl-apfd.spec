@@ -3,12 +3,12 @@
 %define		status		stable
 Summary:	%{modname} - parse form data
 Name:		%{php_name}-pecl-%{modname}
-Version:	1.0.0
+Version:	1.0.1
 Release:	1
 License:	BSD, revised
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
-# Source0-md5:	0f2a98864b9d8ac5a5427070645059ec
+# Source0-md5:	048d467a8a430ab4be32ae390264a434
 URL:		http://pecl.php.net/package/apfd/
 BuildRequires:	%{php_name}-devel >= 3:5.3.0
 BuildRequires:	rpmbuild(macros) >= 1.650
